@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1beta1
+kind: Component
+metadata:
+  name: required-public-workflows-coveo
+  title: Required Public GitHub Workflows (coveo)
+spec:
+  type: ci
+  lifecycle: production
+  owner: dev-tooling
